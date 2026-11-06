@@ -9,9 +9,9 @@ I use Stm32f103vc and Keil Compiler and Stm32CubeMX wizard.
 Please Do This ...
 <br />
 <br />
-1) Enable FreeRTOS  
+1) Enable FreeRTOS
 <br />
-2) Config a Gpio and a timer on CubeMX . 1us per tick				example 72 MHz cpu >>> Prescaler=(72-1)      counter period=0xFFFF  
+2) Config a Gpio and a timer on CubeMX . 1us per tick example 72 MHz cpu >>> Prescaler=(72-1) counter period=0xFFFF
 <br />
 3) Select "General peripheral Initalizion as a pair of '.c/.h' file per peripheral" on project settings.
 <br />
